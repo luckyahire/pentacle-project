@@ -1,0 +1,136 @@
+.pentacle {
+    position: relative;
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    height: 200px;
+    background-color: #facd01;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    isolation: isolate;
+}
+
+.pentacle::after {
+    content: "Associate HR Manager";
+    color: #fde885;
+    position: absolute;
+    left: 2.3rem;
+    top: 0.3rem;
+    font-size: 3.4rem;
+    box-sizing: border-box;
+    font-weight: 700;
+    z-index: -1;
+}
+
+.pentacle>span {
+    display: flex;
+    justify-content: end;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    height: -webkit-fill-available;
+}
+.left-section {
+    display: flex;
+    padding-top: 0.2rem;
+    justify-content: space-between;
+    gap: 17px;
+}
+
+.profile-img {
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    margin-left: 2.1rem;
+}
+
+.left-section >div .logo img {
+    width: 9rem;
+    padding-top: 1.2rem;
+}
+.text-content {
+    color: black;
+}
+
+.text-content h1 {
+    margin: 0;
+    font-size: 3rem;
+    max-width: 40%;
+    line-height: 1;
+}
+
+.text-content p {
+    font-size: 14px;
+    color: #333;
+    margin: 2rem 0 1.2rem;
+    max-width: 74%;
+    font-weight: 400;
+}
+
+.right-section {
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 4rem;
+}
+.right-section table{
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+  height: fit-content;
+}
+table th{
+    text-align: left;
+    border-top: 1px solid #e4bb01;
+    border-bottom: 1px solid #e4bb01;
+}
+table th, td{
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+}
+table td:first-child{
+    border-right: 1px solid #e4bb01;
+    padding-right: 4rem;
+}
+
+
+
+
+/* ***********agency**************** */
+
+.agencysection{
+    position: relative;
+    width: min(1400px, 100%);
+    margin: 0 auto;
+    height: 200px;
+    background-color: #F73449 ;
+    padding: 25px 38px;
+    font-family: "Poppins", sans-serif;
+    isolation: isolate;
+    margin-top: 7rem;
+}
+.agencysection span{
+    font-size: 3.3rem;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+}
+.agencysection >div{
+    padding-top: 1.1rem;
+}
+.agencysection h1{
+    font-size: 6rem;
+    margin: 0;
+    line-height:0.2;
+    color: #fff;
+}
+.agencysection img{
+    position: absolute;
+    top: -5rem;
+    right: -6rem;
+    width: 26rem;
+}
